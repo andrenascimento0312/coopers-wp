@@ -3,9 +3,9 @@ Este projeto é um teste de front end onde desenvolvi um tema WordPress utilizan
 * URL do projeto: https://coopers-wp.andrednascimento.com.br/
 
 ### Tecnologias Utilizadas
-* PHP nativo do WordPress
-* Recursões nativas do WordPress
-* JavaScript vanilla com requisições assíncronas para endpoints REST do WordPress
+* PHP 
+* funções nativas do WordPress
+* JavaScript vanilla com requisições assíncronas para endpoints REST do WordPress que criei de novo CPT
 * Gerenciamento de dependências com Composer e npm
 * Framework CSS Tailwind para estilização
 
