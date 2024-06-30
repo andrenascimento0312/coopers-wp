@@ -1,0 +1,68 @@
+/*!
+Theme Name: Coopers
+Theme URI: https://underscoretw.com/
+Author: André Nascimento
+Author URI: http://andrednascimento.com.br
+Description: front end test
+Version: 0.1.0
+Tested up to: 6.2
+Requires PHP: 7.4
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: coopers
+Tags:
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned.
+
+Coopers is based on _tw https://underscoretw.com/, (C) 2021-2023 Greg Sullivan
+_tw is distributed under the terms of the GNU GPL v2 or later.
+
+_tw is based on Underscores https://underscores.me/ and Varia https://github.com/Automattic/themes/tree/master/varia, (C) 2012-2023 Automattic, Inc.
+Underscores and Varia are distributed under the terms of the GNU GPL v2 or later.
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+html,body{
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'montserrat' !important;
+    overflow-x: hidden !important;
+}
+
+.loading{
+    background-color: lightgray!important;
+}
+
+@media all and (min-width: 1800px) {
+    .img-hero {
+        right: 5vw !important
+    }
+}
+
+@media all and (min-width: 2000px) {
+    .img-hero {
+        right: calc(250px + 8vw) !important
+    }
+}
+
+@media all and (min-width: 1024px) {
+
+
+    .swiper-horizontal>.swiper-pagination-bullets,
+    .swiper-pagination-bullets.swiper-pagination-horizontal,
+    .swiper-pagination-custom,
+    .swiper-pagination-fraction {
+        bottom: 0 !important;
+        left: 27%;
+    }
+
+    span.swiper-pagination-bullet {
+        width: 18px !important;
+        height: 18px !important;
+        background: #4AC959;
+    }
+}
