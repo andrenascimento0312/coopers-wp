@@ -1,5 +1,6 @@
 ## Front End Project
 Este projeto é um teste de front end onde desenvolvi um tema WordPress utilizando ACF, baseado em um protótipo no Figma.
+* URL do projeto: https://coopers-wp.andrednascimento.com.br/
 
 ### Tecnologias Utilizadas
 * PHP nativo do WordPress
